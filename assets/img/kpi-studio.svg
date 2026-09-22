@@ -1,0 +1,167 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 700" width="1120" height="700" role="img" aria-label="KPI Studio desktop app mockup showing a validation review table">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0c1934"/>
+      <stop offset="0.55" stop-color="#0D1B3B"/>
+      <stop offset="1" stop-color="#0a1730"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.85" cy="0.05" r="0.7">
+      <stop offset="0" stop-color="#C0A23C" stop-opacity="0.30"/>
+      <stop offset="1" stop-color="#C0A23C" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#16294f"/>
+      <stop offset="1" stop-color="#101f42"/>
+    </linearGradient>
+    <style>
+      .h { font-family: 'Bricolage Grotesque','Segoe UI',sans-serif; font-weight: 800; }
+      .b { font-family: 'Figtree','Segoe UI',sans-serif; }
+      .m { font-family: 'Consolas','SFMono-Regular',monospace; }
+    </style>
+  </defs>
+
+  <!-- backdrop -->
+  <rect width="1120" height="700" fill="url(#bg)"/>
+  <rect width="1120" height="700" fill="url(#glow)"/>
+
+  <!-- window frame -->
+  <g>
+    <rect x="90" y="82" width="940" height="536" rx="22" fill="#0b1735" stroke="#26365e" stroke-width="1.5"/>
+
+    <!-- title bar -->
+    <g class="h">
+      <rect x="90" y="82" width="940" height="70" rx="22" fill="#101f42"/>
+      <rect x="90" y="130" width="940" height="22" fill="#101f42"/>
+      <circle cx="122" cy="117" r="6" fill="#4a5a82"/>
+      <circle cx="142" cy="117" r="6" fill="#4a5a82"/>
+      <circle cx="162" cy="117" r="6" fill="#4a5a82"/>
+      <rect x="196" y="104" width="26" height="26" rx="8" fill="#0D1B3B"/>
+      <text x="209" y="122" text-anchor="middle" font-size="11" fill="#C0A23C" class="h">K</text>
+      <text x="236" y="125" font-size="20" fill="#ffffff" class="h" letter-spacing="0.5">KPI Studio</text>
+      <text x="368" y="124" font-size="12" fill="#E4C577" class="b" letter-spacing="3" opacity="0.85">MONTHLY REPORT · REVIEW</text>
+    </g>
+
+    <!-- sidebar: pipeline steps -->
+    <g class="b">
+      <rect x="90" y="152" width="212" height="466" fill="#0a1531"/>
+      <text x="118" y="196" font-size="13" fill="#8b97b6" letter-spacing="2">PIPELINE</text>
+
+      <g>
+        <circle cx="128" cy="232" r="8" fill="#C0A23C"/>
+        <path d="M124 232l3 3 5-6" stroke="#0D1B3B" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+        <text x="148" y="237" font-size="15" fill="#e9edf6">Extract</text>
+        <line x1="128" y1="244" x2="128" y2="266" stroke="#2c3d66" stroke-width="2"/>
+
+        <circle cx="128" cy="278" r="8" fill="#C0A23C"/>
+        <path d="M124 278l3 3 5-6" stroke="#0D1B3B" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+        <text x="148" y="283" font-size="15" fill="#e9edf6">Match</text>
+        <line x1="128" y1="290" x2="128" y2="312" stroke="#2c3d66" stroke-width="2"/>
+
+        <rect x="104" y="308" width="184" height="34" rx="10" fill="#16294f" stroke="#C0A23C" stroke-width="1.5"/>
+        <circle cx="128" cy="325" r="8" fill="none" stroke="#C0A23C" stroke-width="2.5"/>
+        <text x="148" y="330" font-size="15" fill="#ffffff" class="h">Review</text>
+        <line x1="128" y1="336" x2="128" y2="358" stroke="#2c3d66" stroke-width="2"/>
+
+        <circle cx="128" cy="370" r="8" fill="none" stroke="#4a5a82" stroke-width="2"/>
+        <text x="148" y="375" font-size="15" fill="#9fabca">Write back</text>
+      </g>
+
+      <text x="118" y="430" font-size="13" fill="#8b97b6" letter-spacing="2">SOURCES</text>
+      <rect x="118" y="444" width="156" height="30" rx="8" fill="#101f42" stroke="#233256"/>
+      <text x="132" y="464" font-size="12.5" fill="#9fabca">12 workbooks loaded</text>
+      <rect x="118" y="482" width="156" height="30" rx="8" fill="#101f42" stroke="#233256"/>
+      <text x="132" y="502" font-size="12.5" fill="#9fabca">Roster synced</text>
+    </g>
+
+    <!-- table -->
+    <g class="b">
+      <text x="330" y="196" font-size="13" fill="#8b97b6" letter-spacing="2">EXTRACTED VS. ANSWER KEY</text>
+
+      <!-- header -->
+      <text x="344" y="228" font-size="12" fill="#6f7d9f" letter-spacing="1">LOCATION</text>
+      <text x="470" y="228" font-size="12" fill="#6f7d9f" letter-spacing="1">METRIC</text>
+      <text x="580" y="228" font-size="12" fill="#6f7d9f" letter-spacing="1" text-anchor="end">FOUND</text>
+      <text x="640" y="228" font-size="12" fill="#6f7d9f" letter-spacing="1" text-anchor="end">KEY</text>
+      <line x1="330" y1="238" x2="700" y2="238" stroke="#233256"/>
+
+      <!-- row 1 -->
+      <rect x="330" y="246" width="370" height="48" rx="12" fill="#101f42" stroke="#233256"/>
+      <text x="344" y="275" font-size="14" fill="#e9edf6">Site 01</text>
+      <text x="470" y="275" font-size="14" fill="#e9edf6">Evals</text>
+      <text x="580" y="275" font-size="14" fill="#ffffff" class="m" text-anchor="end">142</text>
+      <text x="640" y="275" font-size="14" fill="#9fabca" class="m" text-anchor="end">142</text>
+      <rect x="654" y="260" width="34" height="20" rx="10" fill="#C0A23C"/>
+      <path d="M665 270l4 4 8-8" stroke="#0D1B3B" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+      <!-- row 2 -->
+      <rect x="330" y="302" width="370" height="48" rx="12" fill="#101f42" stroke="#233256"/>
+      <text x="344" y="331" font-size="14" fill="#e9edf6">Site 02</text>
+      <text x="470" y="331" font-size="14" fill="#e9edf6">Visits</text>
+      <text x="580" y="331" font-size="14" fill="#ffffff" class="m" text-anchor="end">1,208</text>
+      <text x="640" y="331" font-size="14" fill="#9fabca" class="m" text-anchor="end">1,208</text>
+      <rect x="654" y="316" width="34" height="20" rx="10" fill="#C0A23C"/>
+      <path d="M665 326l4 4 8-8" stroke="#0D1B3B" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+      <!-- row 3 (flagged) -->
+      <rect x="330" y="358" width="370" height="48" rx="12" fill="url(#card)" stroke="#E4C577" stroke-width="1.5"/>
+      <rect x="330" y="358" width="5" height="48" rx="2.5" fill="#E4C577"/>
+      <text x="344" y="387" font-size="14" fill="#ffffff" class="h">Site 03</text>
+      <text x="470" y="387" font-size="14" fill="#ffffff">Units</text>
+      <text x="580" y="387" font-size="14" fill="#ffffff" class="m" text-anchor="end">96</text>
+      <text x="640" y="387" font-size="14" fill="#E4C577" class="m" text-anchor="end">98</text>
+      <rect x="648" y="372" width="46" height="20" rx="10" fill="#16294f" stroke="#E4C577"/>
+      <text x="671" y="386" text-anchor="middle" font-size="10.5" fill="#E4C577" class="h">FLAG</text>
+
+      <!-- row 4 -->
+      <rect x="330" y="414" width="370" height="48" rx="12" fill="#101f42" stroke="#233256"/>
+      <text x="344" y="443" font-size="14" fill="#e9edf6">Site 04</text>
+      <text x="470" y="443" font-size="14" fill="#e9edf6">Evals</text>
+      <text x="580" y="443" font-size="14" fill="#ffffff" class="m" text-anchor="end">77</text>
+      <text x="640" y="443" font-size="14" fill="#9fabca" class="m" text-anchor="end">77</text>
+      <rect x="654" y="428" width="34" height="20" rx="10" fill="#C0A23C"/>
+      <path d="M665 438l4 4 8-8" stroke="#0D1B3B" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+      <!-- row 5 -->
+      <rect x="330" y="470" width="370" height="48" rx="12" fill="#101f42" stroke="#233256"/>
+      <text x="344" y="499" font-size="14" fill="#e9edf6">Site 05</text>
+      <text x="470" y="499" font-size="14" fill="#e9edf6">Visits</text>
+      <text x="580" y="499" font-size="14" fill="#ffffff" class="m" text-anchor="end">864</text>
+      <text x="640" y="499" font-size="14" fill="#9fabca" class="m" text-anchor="end">864</text>
+      <rect x="654" y="484" width="34" height="20" rx="10" fill="#C0A23C"/>
+      <path d="M665 494l4 4 8-8" stroke="#0D1B3B" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+      <!-- note -->
+      <rect x="330" y="534" width="370" height="40" rx="12" fill="#0f1d3f" stroke="#233256"/>
+      <circle cx="352" cy="554" r="7" fill="#C0A23C" opacity="0.25"/>
+      <circle cx="352" cy="554" r="3.5" fill="#C0A23C"/>
+      <text x="370" y="559" font-size="13" fill="#9fabca">1 row needs a look before write-back</text>
+    </g>
+
+    <!-- right: validation card -->
+    <g class="b">
+      <rect x="724" y="212" width="278" height="362" rx="18" fill="url(#card)" stroke="#2c3d66"/>
+      <text x="752" y="250" font-size="13" fill="#E4C577" letter-spacing="2">VALIDATION</text>
+
+      <text x="752" y="318" font-size="56" fill="#ffffff" class="h">96%</text>
+      <text x="752" y="346" font-size="14" fill="#9fabca">matched vs. leadership answer key</text>
+
+      <!-- bar -->
+      <rect x="752" y="366" width="222" height="10" rx="5" fill="#0D1B3B"/>
+      <rect x="752" y="366" width="213" height="10" rx="5" fill="#C0A23C"/>
+
+      <!-- stats -->
+      <text x="752" y="416" font-size="13" fill="#8b97b6">Rows checked</text>
+      <text x="974" y="416" font-size="13" fill="#ffffff" class="m" text-anchor="end">418</text>
+      <line x1="752" y1="426" x2="974" y2="426" stroke="#233256"/>
+      <text x="752" y="450" font-size="13" fill="#8b97b6">Auto-matched</text>
+      <text x="974" y="450" font-size="13" fill="#ffffff" class="m" text-anchor="end">401</text>
+      <line x1="752" y1="460" x2="974" y2="460" stroke="#233256"/>
+      <text x="752" y="484" font-size="13" fill="#8b97b6">Flagged for review</text>
+      <text x="974" y="484" font-size="13" fill="#E4C577" class="m" text-anchor="end">17</text>
+
+      <!-- button -->
+      <rect x="752" y="518" width="222" height="34" rx="17" fill="#C0A23C"/>
+      <text x="863" y="540" text-anchor="middle" font-size="14" fill="#0D1B3B" class="h">Write back to workbook</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Luke Grayson — LTG Innovations</title>
+  <meta name="description" content="Luke Grayson is a Software Engineering student at Rose-Hulman and the founder of LTG Innovations. Experience, education, and skills." />
+
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <meta property="og:title" content="About Luke Grayson — LTG Innovations" />
+  <meta property="og:description" content="Software Engineering student at Rose-Hulman, founder of LTG Innovations, and software engineering intern at Progressive Health." />
+  <meta property="og:type" content="profile" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="about-page">
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" id="top">
+    <div class="wrap header-inner">
+      <a class="brand" href="index.html" aria-label="LTG Innovations home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 40 40" width="34" height="34"><rect width="40" height="40" rx="10" fill="#0D1B3B"/><text x="20" y="26" text-anchor="middle" font-family="'Bricolage Grotesque',sans-serif" font-weight="800" font-size="15" fill="#C0A23C">LTG</text></svg>
+        </span>
+        <span class="brand-word"><b>LTG</b><i>INNOVATIONS</i></span>
+      </a>
+
+      <nav class="nav" aria-label="Primary">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Open menu">
+          <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="index.html#product">Product</a></li>
+          <li><a href="index.html#features">Features</a></li>
+          <li><a href="work.html">Work</a></li>
+          <li><a href="index.html#pricing">Pricing</a></li>
+          <li><a href="about.html" aria-current="page">About</a></li>
+          <li><a class="nav-cta" href="index.html#contact">Get a quote</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- HERO -->
+    <section class="hero about-hero">
+      <div class="hero-grain" aria-hidden="true"></div>
+      <div class="wrap hero-inner">
+        <p class="eyebrow reveal">About the founder</p>
+        <h1 class="hero-title reveal" style="--d:1">
+          Hi, I'm <span class="accent">Luke Grayson.</span>
+        </h1>
+        <p class="hero-sub reveal" style="--d:2">
+          I'm a Software Engineering student at Rose-Hulman who designs, builds,
+          and ships production web and backend applications. LTG Innovations is
+          the company I founded to do that work for real businesses. I'm looking
+          for a Summer 2027 software engineering internship.
+        </p>
+        <div class="hero-actions reveal" style="--d:3">
+          <a class="btn btn-gold" href="work.html">See my work</a>
+          <a class="btn btn-ghost" href="https://github.com/LT1506" target="_blank" rel="noopener">GitHub</a>
+        </div>
+        <ul class="glance reveal" style="--d:4" aria-label="At a glance">
+          <li>Evansville, IN</li>
+          <li>Rose-Hulman, class of 2029</li>
+          <li>GPA 3.87</li>
+          <li>Founder &amp; developer</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="section" id="experience">
+      <div class="wrap">
+        <p class="kicker">Experience</p>
+        <h2 class="section-title">Where I've built things.</h2>
+
+        <ol class="timeline">
+          <li class="tl-item">
+            <div class="tl-head">
+              <div>
+                <h3>LTG Innovations LLC</h3>
+                <p class="tl-role">Founder &amp; Software Developer</p>
+              </div>
+              <span class="tl-date">2026 – Present</span>
+            </div>
+            <ul class="tl-bullets">
+              <li>Founded and operate a registered Indiana software company that designs, builds, and deploys web applications for clients.</li>
+              <li>Launched client sites and stores like <a href="https://thecakeballlady.com" target="_blank" rel="noopener">The Cake Ball Lady</a> and <a href="https://www.tornattatires.com" target="_blank" rel="noopener">Tornatta Tire</a>, with live Stripe payments, hosting, and ongoing maintenance.</li>
+              <li>Building <a href="index.html#product">Chairtime</a>, a booking and in-person payments platform for stylists, now live with a pilot stylist.</li>
+            </ul>
+            <div class="work-tags">
+              <span class="work-tag">FastAPI</span>
+              <span class="work-tag">PostgreSQL</span>
+              <span class="work-tag">Next.js</span>
+              <span class="work-tag">Stripe</span>
+              <span class="work-tag">Railway</span>
+            </div>
+          </li>
+
+          <li class="tl-item">
+            <div class="tl-head">
+              <div>
+                <h3>Progressive Health</h3>
+                <p class="tl-role">Software Engineering Intern</p>
+              </div>
+              <span class="tl-date">May 2026 – Present</span>
+            </div>
+            <ul class="tl-bullets">
+              <li>Built KPI Studio, a ~5,900-line Python desktop app (GUI plus data extraction, write-back, and review) that automates monthly KPI reporting from Excel workbooks, replacing a manual process.</li>
+              <li>Match and validate extracted data against leadership answer keys at 91–96% accuracy across five months of reporting.</li>
+              <li>Built an offline RTM billing tool that turns billing exports into per-patient cards for clinicians.</li>
+            </ul>
+            <div class="work-tags">
+              <span class="work-tag">Python</span>
+              <span class="work-tag">Excel automation</span>
+              <span class="work-tag">Desktop GUI</span>
+              <span class="work-tag">Data validation</span>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section class="section section-mist" id="education">
+      <div class="wrap">
+        <p class="kicker">Education</p>
+        <h2 class="section-title">Rose-Hulman Institute of Technology</h2>
+
+        <div class="edu-grid">
+          <article class="edu-card">
+            <div class="tl-head">
+              <div>
+                <h3>B.S. Software Engineering</h3>
+                <p class="tl-role">Rose-Hulman Institute of Technology · Terre Haute, IN</p>
+              </div>
+              <span class="tl-date">Expected May 2029</span>
+            </div>
+            <p class="edu-stat"><strong>GPA 3.87</strong></p>
+            <p class="edu-courses"><strong>Relevant courses:</strong> Calculus I, II &amp; III · Physics I &amp; II · Intro to Software Development · Object-Oriented Software Development · Intro to Digital Systems · Intro to Systems · Practical Security I</p>
+          </article>
+
+          <article class="edu-card">
+            <div class="tl-head">
+              <div>
+                <h3>Honors Diploma</h3>
+                <p class="tl-role">North High School · Evansville, IN</p>
+              </div>
+              <span class="tl-date">May 2025</span>
+            </div>
+            <p class="edu-stat"><strong>GPA 4.22</strong></p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section" id="skills">
+      <div class="wrap">
+        <p class="kicker">Skills</p>
+        <h2 class="section-title">What I work in.</h2>
+
+        <div class="skills-grid">
+          <div class="skill-group">
+            <h3>Languages</h3>
+            <div class="work-tags">
+              <span class="work-tag">Python</span>
+              <span class="work-tag">JavaScript</span>
+              <span class="work-tag">Java</span>
+              <span class="work-tag">C++</span>
+              <span class="work-tag">HTML/CSS</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <h3>Frameworks &amp; tools</h3>
+            <div class="work-tags">
+              <span class="work-tag">FastAPI</span>
+              <span class="work-tag">Next.js / React</span>
+              <span class="work-tag">Node.js</span>
+              <span class="work-tag">PostgreSQL</span>
+              <span class="work-tag">Stripe</span>
+              <span class="work-tag">Git / GitHub</span>
+              <span class="work-tag">Unity (C#)</span>
+              <span class="work-tag">Arduino</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <h3>Shipping &amp; operations</h3>
+            <div class="work-tags">
+              <span class="work-tag">Railway</span>
+              <span class="work-tag">GitHub Pages</span>
+              <span class="work-tag">DNS &amp; SSL</span>
+              <span class="work-tag">Twilio</span>
+              <span class="work-tag">PWAs</span>
+              <span class="work-tag">SEO</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BEYOND CODE -->
+    <section class="section section-mist" id="beyond">
+      <div class="wrap">
+        <p class="kicker">Beyond code</p>
+        <h2 class="section-title">Teams and leadership.</h2>
+        <ul class="beyond-list">
+          <li>
+            <div>
+              <h3>Rose-Hulman Football</h3>
+              <p>Student-athlete on the varsity roster.</p>
+            </div>
+            <span class="tl-date">Aug 2025 – Present</span>
+          </li>
+          <li>
+            <div>
+              <h3>North High School Football · Captain</h3>
+              <p>Led the team through stretches, conditioning, and games.</p>
+            </div>
+            <span class="tl-date">Sep 2022 – Nov 2024</span>
+          </li>
+          <li>
+            <div>
+              <h3>Student Council · Treasurer</h3>
+              <p>Managed student council finances by tracking spending and maintaining the budget.</p>
+            </div>
+            <span class="tl-date">May 2024 – May 2025</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section section-navy" id="contact">
+      <div class="wrap contact-inner">
+        <p class="kicker center gold">Get in touch</p>
+        <h2 class="section-title center light">Let's talk.</h2>
+        <p class="contact-lead">
+          Whether it's a project for your business or an internship for Summer 2027, I'd like to hear from you.
+        </p>
+        <div class="contact-methods">
+          <a class="contact-method" href="mailto:lgrayson990@gmail.com">
+            <span class="cm-label">Email</span>
+            <span class="cm-value">lgrayson990@gmail.com</span>
+          </a>
+          <a class="contact-method" href="tel:+18124996337">
+            <span class="cm-label">Phone</span>
+            <span class="cm-value">(812) 499-6337</span>
+          </a>
+          <a class="contact-method" href="https://github.com/LT1506" target="_blank" rel="noopener">
+            <span class="cm-label">GitHub</span>
+            <span class="cm-value">github.com/LT1506</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div class="footer-brand">
+        <span class="brand-word footer-word"><b>LTG</b><i>INNOVATIONS</i></span>
+        <p class="footer-tag">Software for service businesses.</p>
+      </div>
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="index.html#product">Product</a>
+        <a href="work.html">Work</a>
+        <a href="index.html#pricing">Pricing</a>
+        <a href="about.html">About</a>
+        <a href="terms.html">Terms</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="refunds.html">Refunds</a>
+      </nav>
+    </div>
+    <div class="wrap footer-legal">
+      <p>&copy; <span id="year">2026</span> LTG Innovations LLC. All rights reserved.</p>
+      <p>Payments processed securely by Stripe.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
