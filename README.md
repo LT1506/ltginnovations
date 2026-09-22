@@ -1,19 +1,16 @@
-# LTG Innovations — company website
+# Luke Grayson — portfolio
 
-Marketing site for **LTG Innovations LLC**, a software company for service
-businesses. Flagship product: **Chairtime**, a booking and in-person payment
-platform for independent stylists.
+Personal portfolio for Luke Grayson (Software Engineering, Rose-Hulman).
+Formerly the LTG Innovations company site; kept at the same URL because it
+is the link on Luke's resume.
 
 ## Stack
 Plain HTML, CSS, and JavaScript — no build step. Hosted on GitHub Pages.
 
 ## Structure
-- `index.html` — single-page landing (hero, product, features, pricing, about, contact)
-- `terms.html`, `privacy.html`, `refunds.html` — legal pages
-- `css/style.css` — brand stylesheet (deep navy + gold)
-- `js/main.js` — mobile nav + minor interactions
-- `favicon.svg` — LTG monogram
-
-## Custom domain
-Intended domain: `ltginnovations.com`. When purchased, add a `CNAME` file
-containing `ltginnovations.com` and point DNS at GitHub Pages.
+- `index.html` — the whole portfolio (hero + live links, work, experience, education, skills, beyond code, contact)
+- `css/portfolio.css` — portfolio stylesheet (chalk / ink / rose, Archivo variable font)
+- `about.html`, `work.html` — redirects to sections of `index.html` (old links)
+- `terms.html`, `privacy.html`, `refunds.html` — legacy Chairtime legal pages (unlinked; still use `css/style.css`)
+- `assets/img/` — project thumbnails
+- `favicon.svg` — LG mark
